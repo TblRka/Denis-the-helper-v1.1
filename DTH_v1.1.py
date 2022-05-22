@@ -41,7 +41,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(self.tab)
         self.label.setGeometry(QtCore.QRect(0, 0, 220, 270))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("../test/Denis1.ico"))
+        self.label.setPixmap(QtGui.QPixmap("Denis1.ico"))
         self.label.setObjectName("label")
 
         self.pushButton = QtWidgets.QPushButton(self.tab)
