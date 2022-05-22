@@ -90,7 +90,6 @@ def recognize_cmd(cmd):
                 if vrt > RC['percent']:
                     RC['cmd'] = c
                     RC['percent'] = vrt
-    print(RC)
     return RC
  
 def execute_cmd(cmd, cmd1):
@@ -116,7 +115,6 @@ def execute_cmd(cmd, cmd1):
         webbrowser.open('https://auth.mephi.ru', new = 2)
         speak("Открываю Хомяк")
     elif cmd == 'webbrowser_find':
-        print("There")
         #print("cmd1", cmd1)
         for x in opts["cmds"]["webbrowser_find"]:
             cmd1 = cmd1.replace(x, "").strip()
